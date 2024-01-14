@@ -87,9 +87,9 @@ main {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: #000;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
 }
 
 .weatehr-forecast-date {
