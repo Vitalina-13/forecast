@@ -96,12 +96,23 @@ main {
   font-size: 16px;
   opacity: 0.5;
 }
+.weather-forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
 .weather-forecast-temperatures {
-  font-size: 13px;
+  text-align: center;
+  color: #f65282;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
-.weather-forecast-temperature-min {
-  opacity: 0.5;
+
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
+
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
